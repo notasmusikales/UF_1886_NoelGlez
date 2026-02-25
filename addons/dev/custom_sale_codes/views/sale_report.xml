@@ -10,7 +10,7 @@
         </xpath>
 
         <!-- Insertamos dos huecos en cada línea normal -->
-        <xpath expr="//th[@name='td_name']" position="after">
+        <xpath expr="//td[@name='td_name']" position="after">
             <td name="td_default_code" class="text-start text-nowrap"/>
                 <span t-field="line.product_id.default_code"/>
             </td>
