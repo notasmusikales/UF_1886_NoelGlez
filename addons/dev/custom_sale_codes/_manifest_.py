@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "category": "Sales",
     "summary": "Añade referencia interna y código de barras al reporte de pedido",
-    "depends": ["sale"],
+    "depends": ["sales"],
     "data": [
         #"views/sale_report_views.xml",
     ],
