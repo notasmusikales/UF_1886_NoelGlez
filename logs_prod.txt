@@ -1,0 +1,100 @@
+2026-02-26 12:03:49,735 1 INFO odoo_qa werkzeug: 192.168.1.80 - - [26/Feb/2026 12:03:49] "POST /mail/thread/data HTTP/1.1" 200 - 19 0.066 0.033
+2026-02-26 12:03:51,374 1 INFO odoo_qa werkzeug: 192.168.1.80 - - [26/Feb/2026 12:03:51] "POST /web/dataset/call_button/sale.order/action_preview_sale_order HTTP/1.1" 200 - 9 0.013 0.013
+2026-02-26 12:03:51,801 1 INFO odoo_qa werkzeug: 192.168.1.80 - - [26/Feb/2026 12:03:51] "GET /my/orders/1?access_token=7c459318-c6ac-4387-b9cf-04fc101a8a2f HTTP/1.1" 200 - 124 0.072 0.331
+2026-02-26 12:03:51,848 1 INFO ? werkzeug: 192.168.1.80 - - [26/Feb/2026 12:03:51] "GET /web/static/img/logo.png HTTP/1.1" 200 - 0 0.000 0.007
+2026-02-26 12:03:51,894 1 INFO odoo_qa werkzeug: 192.168.1.80 - - [26/Feb/2026 12:03:51] "GET /logo.png?company=1 HTTP/1.1" 200 - 2 0.005 0.051
+2026-02-26 12:03:51,903 1 INFO odoo_qa werkzeug: 192.168.1.80 - - [26/Feb/2026 12:03:51] "GET /web/assets/debug/web.assets_frontend_minimal.js HTTP/1.1" 304 - 3 0.010 0.050
+2026-02-26 12:03:51,913 1 INFO odoo_qa werkzeug: 192.168.1.80 - - [26/Feb/2026 12:03:51] "GET /web/assets/debug/web.assets_frontend.css HTTP/1.1" 304 - 3 0.014 0.070
+2026-02-26 12:03:51,926 1 INFO ? werkzeug: 192.168.1.80 - - [26/Feb/2026 12:03:51] "GET /web/static/img/odoo_logo_tiny.png HTTP/1.1" 200 - 0 0.000 0.002
+2026-02-26 12:03:51,928 1 INFO odoo_qa werkzeug: 192.168.1.80 - - [26/Feb/2026 12:03:51] "GET /web/assets/debug/web.__assets_tests_call__.js HTTP/1.1" 304 - 3 0.004 0.014
+2026-02-26 12:03:51,976 1 INFO odoo_qa werkzeug: 192.168.1.80 - - [26/Feb/2026 12:03:51] "GET /web/assets/debug/web.assets_frontend_lazy.js HTTP/1.1" 304 - 3 0.005 0.012
+2026-02-26 12:03:52,108 1 INFO odoo_qa werkzeug: 192.168.1.80 - - [26/Feb/2026 12:03:52] "GET /website/translations/47b1d1ede7ea34ce47b1ad979dee248e8ce31cf3 HTTP/1.1" 200 - 3 0.008 0.023
+2026-02-26 12:03:52,145 1 INFO ? werkzeug: 192.168.1.80 - - [26/Feb/2026 12:03:52] "GET /web/static/lib/signature_pad/signature_pad.umd.js HTTP/1.1" 200 - 0 0.000 0.005
+2026-02-26 12:03:52,182 1 INFO odoo_qa werkzeug: 192.168.1.80 - - [26/Feb/2026 12:03:52] "POST /web/sign/get_fonts/ HTTP/1.1" 200 - 1 0.001 0.046
+2026-02-26 12:03:52,191 1 INFO odoo_qa werkzeug: 192.168.1.80 - - [26/Feb/2026 12:03:52] "GET /web/bundle/portal.assets_chatter?lang=es_ES&debug=assets,tests HTTP/1.1" 200 - 8 0.015 0.096
+2026-02-26 12:03:52,292 1 INFO odoo_qa odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/cfba392/portal.assets_chatter.css.map (id:553) 
+2026-02-26 12:03:52,297 1 INFO odoo_qa odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/cfba392/portal.assets_chatter.css (id:554) 
+2026-02-26 12:03:52,311 1 INFO odoo_qa werkzeug: 192.168.1.80 - - [26/Feb/2026 12:03:52] "GET /web/assets/debug/portal.assets_chatter.css HTTP/1.1" 200 - 16 0.011 0.089
+2026-02-26 12:03:52,327 1 INFO odoo_qa odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/5e5d384/portal.assets_chatter.js.map (id:555) 
+2026-02-26 12:03:52,498 1 INFO odoo_qa odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/5e5d384/portal.assets_chatter.js (id:556) 
+2026-02-26 12:03:52,565 1 INFO odoo_qa werkzeug: 192.168.1.80 - - [26/Feb/2026 12:03:52] "GET /web/assets/debug/portal.assets_chatter.js HTTP/1.1" 200 - 16 0.047 0.308
+2026-02-26 12:03:52,646 1 INFO odoo_qa werkzeug: 192.168.1.80 - - [26/Feb/2026 12:03:52] "POST /portal/chatter_init HTTP/1.1" 200 - 21 0.015 0.012
+2026-02-26 12:03:52,662 1 INFO odoo_qa werkzeug: 192.168.1.80 - - [26/Feb/2026 12:03:52] "GET /web/bundle/portal.assets_chatter_style?lang=es_ES&debug=assets,tests HTTP/1.1" 200 - 9 0.006 0.040
+2026-02-26 12:03:53,183 1 INFO odoo_qa odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/e372066/portal.assets_chatter_style.css.map (id:557) 
+2026-02-26 12:03:53,208 1 INFO odoo_qa odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/e372066/portal.assets_chatter_style.css (id:558) 
+2026-02-26 12:03:53,251 1 INFO odoo_qa werkzeug: 192.168.1.80 - - [26/Feb/2026 12:03:53] "GET /web/assets/debug/portal.assets_chatter_style.css HTTP/1.1" 200 - 16 0.039 0.531
+2026-02-26 12:03:53,295 1 INFO odoo_qa werkzeug: 192.168.1.80 - - [26/Feb/2026 12:03:53] "POST /mail/thread/data HTTP/1.1" 200 - 3 0.004 0.006
+2026-02-26 12:03:53,325 1 INFO odoo_qa werkzeug: 192.168.1.80 - - [26/Feb/2026 12:03:53] "POST /mail/chatter_fetch HTTP/1.1" 200 - 7 0.010 0.010
+2026-02-26 12:03:58,663 1 INFO odoo_qa werkzeug: 172.24.0.1 - - [26/Feb/2026 12:03:58] "GET /web/assets/2022096/web.report_assets_common.min.css HTTP/1.1" 200 - 3 0.005 0.010
+2026-02-26 12:03:58,668 1 INFO odoo_qa werkzeug: 172.24.0.1 - - [26/Feb/2026 12:03:58] "GET /web/assets/c37d51a/web.report_assets_pdf.min.css HTTP/1.1" 200 - 3 0.006 0.010
+2026-02-26 12:03:58,697 1 INFO ? werkzeug: 172.24.0.1 - - [26/Feb/2026 12:03:58] "GET /web/static/fonts/lato/Lato-Reg-webfont.woff HTTP/1.1" 200 - 0 0.000 0.001
+2026-02-26 12:03:58,711 1 INFO ? werkzeug: 172.24.0.1 - - [26/Feb/2026 12:03:58] "GET /web/static/fonts/lato/Lato-Lig-webfont.woff HTTP/1.1" 200 - 0 0.000 0.010
+2026-02-26 12:03:58,714 1 INFO ? werkzeug: 172.24.0.1 - - [26/Feb/2026 12:03:58] "GET /web/static/fonts/lato/Lato-Hai-webfont.woff HTTP/1.1" 200 - 0 0.000 0.011
+2026-02-26 12:03:58,721 1 INFO ? werkzeug: 172.24.0.1 - - [26/Feb/2026 12:03:58] "GET /web/static/fonts/lato/Lato-Bol-webfont.woff HTTP/1.1" 200 - 0 0.000 0.012
+2026-02-26 12:03:58,724 1 INFO ? werkzeug: 172.24.0.1 - - [26/Feb/2026 12:03:58] "GET /web/static/fonts/lato/Lato-Bla-webfont.woff HTTP/1.1" 200 - 0 0.000 0.016
+2026-02-26 12:04:00,826 1 INFO odoo_qa odoo.addons.base.models.ir_actions_report: The PDF report has been generated for model: sale.order, records [1]. 
+2026-02-26 12:04:00,828 1 INFO odoo_qa werkzeug: 192.168.1.80 - - [26/Feb/2026 12:04:00] "GET /my/orders/1?access_token=7c459318-c6ac-4387-b9cf-04fc101a8a2f&report_type=pdf HTTP/1.1" 200 - 54 0.051 2.237
+2026-02-26 12:04:00,940 1 INFO odoo_qa werkzeug: 192.168.1.80 - - [26/Feb/2026 12:04:00] "GET /favicon.ico HTTP/1.1" 404 - 17 0.021 0.062
+2026-02-26 12:30:36,016 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) starting 
+2026-02-26 12:30:36,025 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) done in 0.009s 
+2026-02-26 12:30:36,033 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) processed 0 records, 0 records remaining 
+2026-02-26 12:30:36,039 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) completed 
+2026-02-26 12:30:36,058 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) starting 
+2026-02-26 12:30:36,071 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) done in 0.014s 
+2026-02-26 12:30:36,078 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) processed 0 records, 0 records remaining 
+2026-02-26 12:30:36,083 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) completed 
+2026-02-26 12:30:36,099 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) starting 
+2026-02-26 12:30:36,105 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) done in 0.006s 
+2026-02-26 12:30:36,113 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) processed 0 records, 0 records remaining 
+2026-02-26 12:30:36,117 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) completed 
+2026-02-26 12:30:36,131 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'Digest Emails' (16) starting 
+2026-02-26 12:30:36,375 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'Digest Emails' (16) done in 0.243s 
+2026-02-26 12:30:36,384 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'Digest Emails' (16) processed 0 records, 0 records remaining 
+2026-02-26 12:30:36,389 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'Digest Emails' (16) completed 
+2026-02-26 12:30:36,403 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) starting 
+2026-02-26 12:30:36,420 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) done in 0.017s 
+2026-02-26 12:30:36,427 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) processed 0 records, 0 records remaining 
+2026-02-26 12:30:36,432 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) completed 
+2026-02-26 12:30:36,451 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) starting 
+2026-02-26 12:30:36,458 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) done in 0.007s 
+2026-02-26 12:30:36,464 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) processed 0 records, 0 records remaining 
+2026-02-26 12:30:36,468 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) completed 
+2026-02-26 12:33:36,643 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'CRM: enrich leads (IAP)' (26) starting 
+2026-02-26 12:33:36,650 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'CRM: enrich leads (IAP)' (26) done in 0.007s 
+2026-02-26 12:33:36,654 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'CRM: enrich leads (IAP)' (26) processed 0 records, 0 records remaining 
+2026-02-26 12:33:36,659 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'CRM: enrich leads (IAP)' (26) completed 
+2026-02-26 12:38:21,203 1 INFO odoo_qa werkzeug: 192.168.1.80 - - [26/Feb/2026 12:38:21] "GET /web/assets/debug/portal.assets_chatter.css HTTP/1.1" 304 - 3 0.006 0.027
+2026-02-26 12:38:21,207 1 INFO odoo_qa werkzeug: 192.168.1.80 - - [26/Feb/2026 12:38:21] "GET /web/assets/debug/portal.assets_chatter_style.css HTTP/1.1" 304 - 3 0.006 0.029
+2026-02-26 12:38:21,221 1 INFO odoo_qa werkzeug: 192.168.1.80 - - [26/Feb/2026 12:38:21] "GET /web/assets/debug/web.assets_frontend.css HTTP/1.1" 304 - 3 0.019 0.034
+2026-02-26 12:38:21,405 1 INFO odoo_qa werkzeug: 192.168.1.80 - - [26/Feb/2026 12:38:21] "GET /web/assets/3a1851c/web.__assets_tests_call__.js.map HTTP/1.1" 200 - 3 0.005 0.084
+2026-02-26 12:38:21,412 1 INFO odoo_qa werkzeug: 192.168.1.80 - - [26/Feb/2026 12:38:21] "GET /web/assets/cba95df/web.assets_frontend_lazy.js.map HTTP/1.1" 200 - 3 0.016 0.078
+2026-02-26 12:38:21,412 1 INFO odoo_qa werkzeug: 192.168.1.80 - - [26/Feb/2026 12:38:21] "GET /web/assets/944fe34/web.assets_frontend_minimal.js.map HTTP/1.1" 200 - 3 0.020 0.079
+2026-02-26 12:38:21,436 1 INFO odoo_qa werkzeug: 192.168.1.80 - - [26/Feb/2026 12:38:21] "GET /web/static/lib/signature_pad/signature_pad.umd.js.map HTTP/1.1" 404 - 8 0.022 0.095
+2026-02-26 12:38:21,445 1 INFO odoo_qa werkzeug: 192.168.1.80 - - [26/Feb/2026 12:38:21] "GET /web/assets/e372066/portal.assets_chatter_style.css.map HTTP/1.1" 200 - 3 0.010 0.073
+2026-02-26 12:38:21,448 1 INFO odoo_qa werkzeug: 192.168.1.80 - - [26/Feb/2026 12:38:21] "GET /web/assets/5e5d384/portal.assets_chatter.js.map HTTP/1.1" 200 - 3 0.013 0.115
+2026-02-26 12:38:21,471 1 INFO odoo_qa werkzeug: 192.168.1.80 - - [26/Feb/2026 12:38:21] "GET /web/assets/cfba392/portal.assets_chatter.css.map HTTP/1.1" 200 - 3 0.013 0.025
+2026-02-26 12:38:21,482 1 INFO odoo_qa werkzeug: 192.168.1.80 - - [26/Feb/2026 12:38:21] "GET /web/assets/f34462b/web.assets_frontend.css.map HTTP/1.1" 200 - 3 0.016 0.021
+2026-02-26 13:30:39,515 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) starting 
+2026-02-26 13:30:39,527 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) done in 0.012s 
+2026-02-26 13:30:39,533 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) processed 0 records, 0 records remaining 
+2026-02-26 13:30:39,538 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'Notification: Notify scheduled messages' (8) completed 
+2026-02-26 13:30:39,552 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) starting 
+2026-02-26 13:30:39,568 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) done in 0.016s 
+2026-02-26 13:30:39,573 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) processed 0 records, 0 records remaining 
+2026-02-26 13:30:39,578 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'SMS: SMS Queue Manager' (14) completed 
+2026-02-26 13:30:39,592 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) starting 
+2026-02-26 13:30:39,598 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) done in 0.006s 
+2026-02-26 13:30:39,603 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) processed 0 records, 0 records remaining 
+2026-02-26 13:30:39,608 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'Snailmail: process letters queue' (15) completed 
+2026-02-26 13:30:39,623 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) starting 
+2026-02-26 13:30:39,631 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) done in 0.008s 
+2026-02-26 13:30:39,636 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) processed 0 records, 0 records remaining 
+2026-02-26 13:30:39,640 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'Mail: Email Queue Manager' (3) completed 
+2026-02-26 13:30:39,656 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) starting 
+2026-02-26 13:30:39,660 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) done in 0.004s 
+2026-02-26 13:30:39,665 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) processed 0 records, 0 records remaining 
+2026-02-26 13:30:39,670 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'Partner Autocomplete: Sync with remote DB' (13) completed 
+2026-02-26 13:33:39,860 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'CRM: enrich leads (IAP)' (26) starting 
+2026-02-26 13:33:39,871 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'CRM: enrich leads (IAP)' (26) done in 0.011s 
+2026-02-26 13:33:39,878 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'CRM: enrich leads (IAP)' (26) processed 0 records, 0 records remaining 
+2026-02-26 13:33:39,883 1 INFO odoo_qa odoo.addons.base.models.ir_cron: Job 'CRM: enrich leads (IAP)' (26) completed 
