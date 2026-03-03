@@ -32,7 +32,7 @@ Comandos utilizados:
 ```bash
 python3 -m py_compile __manifest__.py
 xmllint --noout views/sale_report.xml
-docker exec -it odoo-dev bash -lc "odoo -d odoo_dev -u nombre_modulo --stop-after-init"
+docker exec -it odoo-dev bash -lc "odoo -d odoo_dev -u custom_sale_codes --stop-after-init"
 ````
 
 Resultado: entorno DEV estable y funcional.
